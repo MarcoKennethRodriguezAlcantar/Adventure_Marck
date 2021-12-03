@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca0bddb82510d846a1be08ad17bfba3, type: 3}
+  m_Name: Personaje
+  m_EditorClassIdentifier: 
+  ID: 2
+  nombre: Rey Ladron
+  descripcion: Villano final del primer nivel
+  personajeSprite: {fileID: 6336493199808830553, guid: 4d2ce3853fe0db0408c4697500a0a0b2, type: 3}
+  maxHP: 100
+  attack: 8
+  aprendeAtaque:
+  - ataque: {fileID: 11400000, guid: 796e43ca33ad4dc469bfe9f8062442ac, type: 2}
+    level: 1
+  - ataque: {fileID: 11400000, guid: 796e43ca33ad4dc469bfe9f8062442ac, type: 2}
+    level: 1
